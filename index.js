@@ -17,6 +17,9 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
   return kittens;
 }
-function prependKitten(kittens,Broom){
+function prependKitten(Broom){
   return [...kittens,Broom];
+}
+function prependKitten(Arnold){
+  return [Arnold,...kittens];
 }
