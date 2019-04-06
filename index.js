@@ -17,3 +17,6 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
   return kittens;
 }
+function prependKitten(Broom){
+  function [kittens,...Broom];
+}
